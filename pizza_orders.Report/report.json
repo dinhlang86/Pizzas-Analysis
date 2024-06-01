@@ -52,7 +52,7 @@
   ],
   "sections": [
     {
-      "config": "{}",
+      "config": "{\"visibility\":1}",
       "displayName": "Orders",
       "displayOption": 1,
       "filters": "[{\"name\":\"Filter6d90fad15424bd4796e6\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Measures Table\"}},\"Property\":\"Total Revenue\"}},\"type\":\"Categorical\",\"howCreated\":5},{\"name\":\"Filter30df55653e1988997585\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Measures Table\"}},\"Property\":\"Total Revenue\"}},\"type\":\"Categorical\",\"howCreated\":5}]",
@@ -153,7 +153,7 @@
       "width": 1280.00
     },
     {
-      "config": "{\"objects\":{\"outspacePane\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"191L\"}}}}}]}}",
+      "config": "{\"objects\":{\"outspacePane\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"191L\"}}}}}]},\"visibility\":1}",
       "displayName": "Pizza",
       "displayOption": 1,
       "filters": "[]",
@@ -255,7 +255,7 @@
       "width": 1280.00
     },
     {
-      "config": "{}",
+      "config": "{\"visibility\":1}",
       "displayName": "Revenue",
       "displayOption": 1,
       "filters": "[{\"name\":\"Filter6d90fad15424bd4796e6\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Measures Table\"}},\"Property\":\"Total Revenue\"}},\"type\":\"Categorical\",\"howCreated\":5},{\"name\":\"Filter30df55653e1988997585\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Measures Table\"}},\"Property\":\"Total Revenue\"}},\"type\":\"Categorical\",\"howCreated\":5}]",
@@ -357,7 +357,7 @@
       "width": 1280.00
     },
     {
-      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]}}",
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]},\"visibility\":1}",
       "displayName": "Product-Dashboard",
       "displayOption": 3,
       "filters": "[]",
@@ -540,7 +540,7 @@
       "width": 1280.00
     },
     {
-      "config": "{}",
+      "config": "{\"visibility\":1}",
       "displayName": "Orders 2",
       "displayOption": 1,
       "filters": "[]",
@@ -588,7 +588,7 @@
       "width": 1280.00
     },
     {
-      "config": "{}",
+      "config": "{\"visibility\":1}",
       "displayName": "Pizza 2",
       "displayOption": 1,
       "filters": "[]",
@@ -636,7 +636,7 @@
       "width": 1280.00
     },
     {
-      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]}}",
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]},\"visibility\":1}",
       "displayName": "Orders-Dashboard",
       "displayOption": 3,
       "filters": "[]",
@@ -819,7 +819,7 @@
       "width": 1280.00
     },
     {
-      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]}}",
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]},\"visibility\":1}",
       "displayName": "Sales-Dashboard",
       "displayOption": 3,
       "filters": "[]",
@@ -965,7 +965,7 @@
       "width": 1280.00
     },
     {
-      "config": "{}",
+      "config": "{\"visibility\":1}",
       "displayName": "Pizza 3",
       "displayOption": 1,
       "filters": "[]",
