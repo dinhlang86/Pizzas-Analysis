@@ -12,7 +12,7 @@
       },
       {
         "name": "PBIDesktopVersion",
-        "value": "2.129.905.0 (24.05)"
+        "value": "2.129.1229.0 (24.05)"
       },
       {
         "name": "PBI_ProTooling",
@@ -145,7 +145,6 @@
             ],
             "dataCategory": "PaddedDateTableDates",
             "dataType": "dateTime",
-            "formatString": "General Date",
             "isHidden": true,
             "isNameInferred": true,
             "lineageTag": "f28dd859-3c6e-4ac2-8f68-0741424f3275",
@@ -168,7 +167,6 @@
             "dataCategory": "Years",
             "dataType": "int64",
             "expression": "YEAR([Date])",
-            "formatString": "0",
             "isHidden": true,
             "lineageTag": "635e4738-655d-4933-b1d8-8afc13f018a4",
             "summarizeBy": "none",
@@ -189,7 +187,6 @@
             "dataCategory": "MonthOfYear",
             "dataType": "int64",
             "expression": "MONTH([Date])",
-            "formatString": "0",
             "isHidden": true,
             "lineageTag": "5f9fd128-ca10-4bdc-88c9-f2eee1680858",
             "summarizeBy": "none",
@@ -231,7 +228,6 @@
             "dataCategory": "QuarterOfYear",
             "dataType": "int64",
             "expression": "INT(([MonthNo] + 2) / 3)",
-            "formatString": "0",
             "isHidden": true,
             "lineageTag": "eb1359e8-7c05-47a2-95e0-0eadcce2e436",
             "summarizeBy": "none",
@@ -273,7 +269,6 @@
             "dataCategory": "DayOfMonth",
             "dataType": "int64",
             "expression": "DAY([Date])",
-            "formatString": "0",
             "isHidden": true,
             "lineageTag": "75340bd6-5dfa-4019-a9cd-037676843073",
             "summarizeBy": "none",
@@ -1192,7 +1187,7 @@
             "lineageTag": "b06d8948-f3a4-483b-95de-c292b0240c7d"
           },
           {
-            "name": "Average Order Value",
+            "name": "Avg Order Value",
             "annotations": [
               {
                 "name": "PBI_FormatHint",
@@ -1321,6 +1316,12 @@
             ],
             "formatString": "0",
             "lineageTag": "2004df53-7cfd-47cf-ac42-4fa6c7c2decf"
+          },
+          {
+            "name": "Avg Pizza per Order",
+            "expression": "[Quantity] / [Total Orders] ",
+            "formatString": "0",
+            "lineageTag": "f1dbe915-31ae-47f9-bb12-5593942c60d0"
           }
         ],
         "partitions": [
